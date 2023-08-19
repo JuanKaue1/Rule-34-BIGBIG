@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --beige1: #D15D5E;
+    --beige2: #EB7A67;
+    --greenNblue1: #2FA097;
+    --greenNblue2: #59BBAE;
+}
+
+#btn-body {
+    width: 11rem;
+    height: 5rem;
+    background-color: var(--beige2);
+    border: 0;
+    border-radius: 100px / 3rem;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-body {
+    width: 11rem;
+    height: 9.5rem;
+    background-color: var(--beige1);
+    border: 0;
+    border-radius: 100px / 3rem;
+    z-index: 2;
+    position: absolute;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.btn-body:active {
+    margin-top: 3rem;
+    height: 6.5rem;
+    border-radius: 100px / 3rem;
+    transition: .1s;
+    z-index: -2;
+    position: absolute;
+    cursor: pointer;
+}
+
+#btn-footer {
+    width: 13rem;
+    height: 6rem;
+    background-color: var(--greenNblue2);
+    border: 0;
+    border-radius: 100px / 50px;
+    position: absolute;
+    z-index: -3;
+}
+
+.btn-footer {
+    width: 13rem;
+    height: 8rem;
+    background-color: var(--greenNblue1);
+    border: 0;
+    border-radius: 100px / 50px;
+    margin-top: 8rem;
+    position: absolute;
+    z-index: -3;
+}
+
+.button {
+    width: 11rem;
+    height: 9.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 100px / 50px;
+}
+
+body {
+    overflow: none;
+    background-repeat: repeat;
+    background-size: 110%;
+}
+
+@media screen and (min-width: 320px) {
+
+    body {
+        background-size: 160%;
+        background-position: 100% 0;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        background-size: 115%;
+        background-position: 100% 0;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        background-size: 90%;
+        background-position: 50% 0%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    body {
+        background-size: 80%;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+    }
+
+}
